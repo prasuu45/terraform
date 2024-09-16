@@ -23,10 +23,7 @@ variable "domain_name" {
   
 }
 
-variable "instance_type" {
-    default = "t3.micro"
-  
-}
+
 
 variable "sg_name" {
     default = "allow_ssh"
